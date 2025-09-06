@@ -41,7 +41,7 @@
 .hero_container{
     width: 100%;
     position: relative;
-    display: inline-block;
+
     background-color: #F5E6D3;
 }
 
@@ -60,21 +60,101 @@
     text-shadow: 2px 2px 6px rgba(160, 82, 45, 0.6);
 }
 .texto-img h1{
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Georgia', serif;
     font-weight: bold;
 }
 
 .frase_clave {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: bold;
     font-family: 'Georgia', serif;
     text-transform: uppercase;
     letter-spacing: 0.08em;
 }
 
-.productos_container{
-    height: 100vh;
-    background-color: #F5E6D3;
+.productos_container {
+  padding: 2rem;
+  max-width: 2200px;
+  margin: 0 auto;
+  background-color: #F5E6D3;
 }
 
+.titulo_productos {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.containerbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.imgProducto {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+.todosLosTitulos{
+    font-size: 17px;
+    text-align: center;
+}
+
+.footer_container{
+    width: 100%;
+    height: 60px;
+    background-color: #D4A437;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 13px;
+}
+
+.instagram_container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color: black;
+}
+.logo_instagram{
+    height: 12px;
+
+}
+.instagram a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+.numero_container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color: black;
+}
+
+.logo_numero{
+    height: 12px;
+}
+.numero a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+
+}
+
+.copy_text {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 5px; /* opcional, para separarlo del resto */
+}
