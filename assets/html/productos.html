@@ -6,9 +6,10 @@
     <title>Lista de Productos</title>
     <link rel="shortcut icon" href="../../Imagenes/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="../css/navegador.css">
+    <link rel="stylesheet" href="../css/productos.css">
 </head>
 <body>
-    <header>
+    <header class="contenedor">
         <nav class="navegacion_container">
             <img src="../../Imagenes/logo.svg" alt="Logo Hermanos Jota" class="imagen_logo">
             <ul class="navegacion_links">
@@ -19,7 +20,15 @@
         </nav>
     </header>
     <main>
-
+        <div class="contenedor_productos">
+            <div id="cabecera">
+                <label for="buscador">Buscador:</label>
+                <input type="text" name="buscador" id="buscador">
+            </div>
+            <div id="productos" class="grilla_productos">
+            </div>
+        </div>
     </main>
+    <script src="../js/productos.js"></script>
 </body>
 </html>
