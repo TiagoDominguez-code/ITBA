@@ -24,3 +24,14 @@
     width: 80px;
     height: 80px;
 }
+
+@media (min-width: 600px) {
+    .contenedor_productos{
+        height: 90dvh;
+        justify-content: flex-start;
+    }
+    .grilla_productos{
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    
+}
