@@ -153,3 +153,11 @@
   text-align: center;
   margin-top: 5px; /* opcional, para separarlo del resto */
 }
+
+.error{
+    color: #f00;
+}
+
+.exito{
+    color: #0f0;
+}
