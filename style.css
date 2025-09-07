@@ -87,15 +87,15 @@
 }
 
 .containerbox {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
   margin-bottom: 2rem;
   padding: 1rem;
   border: 1px solid #ddd;
   border-radius: 8px;
   background-color: #f9f9f9;
+  text-align: center;
 }
 
 .imgProducto {
@@ -158,3 +158,147 @@
   text-align: center;
   margin-top: 5px; /* opcional, para separarlo del resto */
 }
+
+/* Tablets (≥768px) */
+@media (min-width: 768px) {
+  .navegacion_container {
+    height: 60px;
+    padding: 0 2rem;
+  }
+
+  .imagen_logo {
+    height: 50px;
+  }
+
+  .navegacion_links li a {
+    font-size: 18px;
+  }
+
+  .texto-img h1 {
+    font-size: 40px;
+  }
+
+  .frase_clave {
+    font-size: 16px;
+  }
+
+  .containerbox {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+  }
+
+  .imgProducto {
+    width: 40%;
+    margin-left: 30%;
+  }
+
+  .todosLosTitulos {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+
+  .footer_container {
+    font-size: 15px;
+    height: auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .instagram_container,
+  .numero_container {
+    width: auto;
+  }
+
+  .copy_text {
+    margin-top: 0;
+    width: auto;
+  }
+}
+
+/* Desktops (≥1024px) */
+@media (min-width: 1024px) {
+  .navegacion_container {
+    padding: 0 4rem;
+  }
+
+  .texto-img {
+    left: 10%;
+  }
+
+  .texto-img h1 {
+    font-size: 50px;
+  }
+
+  .frase_clave {
+    font-size: 18px;
+  }
+
+    .productos_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 4rem;
+    }
+
+  .containerbox {
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+
+  .imgProducto {
+    width: 30%;
+    height: auto;
+    margin-right: 30%;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+  }
+
+  .todosLosTitulos {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+
+  .descripcion1, .descripcion2, .descripcion3,
+  .materiales1, .materiales2, .materiales3,
+  .tamaño1, .tamaño2, .tamaño3 {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .footer_container {
+    font-size: 16px;
+    height: auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .instagram_container,
+  .numero_container {
+    width: auto;
+  }
+
+  .copy_text {
+    margin-top: 0;
+    width: auto;
+  }
+}
+
+
