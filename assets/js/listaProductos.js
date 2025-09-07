@@ -20,8 +20,8 @@ const productos = [
     medidas: "90 x 85 x 95 cm",
     materiales: "Cuero curtido vegetal, acero pintado",
     acabado: "Cuero anilina premium",
-    rotacion: "360° suave",
-    garantia: "10 años en estructura",
+    capacidad: "1 persona",
+    peso: "80 Kg",
   },
   {
     id: 3,
@@ -56,8 +56,8 @@ const productos = [
     medidas: "80 x 75 x 85 cm",
     materiales: "Guatambú macizo, tela bouclé",
     acabado: "Cera vegetal ecológica",
-    tapizado: "Tratamiento anti manchas",
-    confort: "Espuma alta densidad",
+    capacidad: "1 persona",
+    peso: "40 Kg",
   },
   {
     id: 6,
@@ -117,7 +117,7 @@ const productos = [
     materiales: "Aluminio, malla técnica, espuma HR",
     acabado: "Pintura epoxi negra",
     peso: "20 Kg",
-    confort: "Regulaciones completas",
+    capacidad: "1 persona",
   },
   {
     id: 11,

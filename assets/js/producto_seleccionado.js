@@ -48,9 +48,12 @@ pesoMueble.classList.add("card_text")
 botonCarrito.textContent = "Añadir Carrito"
 botonCarrito.classList.add("card_button")
 
-// botonCarrito.addEventListener("click", ()=>{
-    
-// })
+botonCarrito.addEventListener("click", ()=>{
+    let cantidad = parseInt(localStorage.getItem("cantidad")??0)
+    cantidad++
+    localStorage.setItem("cantidad", cantidad)
+    window.location.href = "productos.html"
+})
 
 fragment.appendChild(imgMueble)
 cardBody.appendChild(tituloMueble)

@@ -37,3 +37,35 @@
     font-weight: bold;
     font-family: Light;
 }
+
+.nav_carrito{
+    width: 20px;
+    height: 20px;
+}
+.cantidad_carrito{
+    display: inline-block;
+    border-radius: 50%;
+    width: 15px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+  .navegacion_container {
+    height: 60px;
+    padding: 0 2rem;
+  }
+
+  .imagen_logo {
+    height: 50px;
+  }
+
+  .navegacion_links li a {
+    font-size: 18px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .navegacion_container {
+    padding: 0 4rem;
+  }
+}
