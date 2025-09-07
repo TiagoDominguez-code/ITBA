@@ -1,0 +1,36 @@
+.contenedor{
+    height: 90dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #eee;
+    border-radius: 1em;
+    height: fit-content;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_body{
+    text-align: justify;
+
+}
+
+.card_title{
+    font-size: 2em;
+    text-align: center;
+}
+
+.card_img {
+    width: 15em;
+}
+
+.card_text{
+    font-size: 1em;
+}
